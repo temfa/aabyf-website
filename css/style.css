@@ -202,7 +202,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
   text-align: right;
   width: 41%;
 }
-button.login-hedder {
+.navbar-nav .login-hedder {
   background: #013fa5;
   color: #fff;
   font-size: 13px;
@@ -221,9 +221,11 @@ button.register-hedder,
   border-radius: 5px;
 }
 button.register-hedder {
-  background: #fff;
+  background: #013fa5;
   color: #000;
   padding: 7px 24px;
+  border: none !important;
+  color: white;
 }
 .contact-hedder a,
 .submit {
