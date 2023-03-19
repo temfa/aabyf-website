@@ -32,15 +32,9 @@ window.addEventListener("DOMContentLoaded", () => {
                 <a href="service.html" class="nav-link">Service</a>
               </li>
               <li class="nav-item">
-                <a href="galler.html" class="nav-link">Gallery</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
               </li>
-              <li class="nav-item dropdown">
-               <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Pages </a> -->
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="nav-link" href="typography.html">Typography</a>
-                  <a href="gallery.html" class="nav-link">Gallery</a>
-                </div>
-              </li>
+             
               <li class="nav-item">
                 <a href="contact.html" class="nav-link">Contact</a>
               </li>
@@ -134,11 +128,17 @@ window.addEventListener("DOMContentLoaded", () => {
     if (currentLocation === navList[i].href) {
       if (currentLocation.split("/")[currentLocation.split("/").length - 1] === "contact.html") {
         menuList[i - 1].classList.add("active");
-      } else if (currentLocation.split("/")[currentLocation.split("/").length - 1] === "gallery.html") {
-        menuList[i - 2].classList.add("active");
       } else {
         menuList[i].classList.add("active");
       }
     }
   }
 });
+
+//  <li class="nav-item dropdown">
+//                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Pages </a> -->
+//                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+//                   <a class="nav-link" href="typography.html">Typography</a>
+//                   <a href="gallery.html" class="nav-link">Gallery</a>
+//                 </div>
+//               </li>
