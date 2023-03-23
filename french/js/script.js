@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", () => {
      <div class="header-w3layouts">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="hedder-up">
-            <img src="./images/logo.png" alt="" />
+            <img src="../images/logo.png" alt="" />
           </div>
           <button
             class="navbar-toggler"
@@ -23,16 +23,16 @@ window.addEventListener("DOMContentLoaded", () => {
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item ">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Maison <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a href="about.html" class="nav-link">About</a>
+                <a href="about.html" class="nav-link">À propos</a>
               </li>
               <li class="nav-item">
-                <a href="service.html" class="nav-link">Service</a>
+                <a href="service.html" class="nav-link">prestations de service</a>
               </li>
               <li class="nav-item">
-                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="gallery.html" class="nav-link">Galerie</a>
               </li>
              
               <li class="nav-item">
@@ -46,7 +46,7 @@ window.addEventListener("DOMContentLoaded", () => {
             <ul>
                 <li class="dropdown">
                     <button type="button" class="register-hedder dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-                    English
+                    French
                     </button>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <p class="nav-link" id="english">English</p>
@@ -62,6 +62,7 @@ window.addEventListener("DOMContentLoaded", () => {
         <div class="clearfix"></div>
       </div>
   `;
+  let english = document.getElementById("english");
   let french = document.getElementById("french");
   let portugese = document.getElementById("portugese");
   let menuList = document.querySelectorAll(".nav-item");
@@ -69,7 +70,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const currentLocation = location.href;
   footer.innerHTML += `
   <div class="container-fluid py-3">
-        <h3 class="title clr text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Newsletter</h3>
+        <h3 class="title clr text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Bulletin</h3>
         <!--subscribe-->
         <div class="mb-lg-5 mb-md-4 mb-3 sub-wthree-form">
           <form>
@@ -77,7 +78,7 @@ window.addEventListener("DOMContentLoaded", () => {
               <input type="email" class="form-control email-sub-w3layouts" placeholder="Email" required="" />
             </div>
             <div class="pt-sm-3 pt-2 text-center">
-              <button type="submit" class="btn subscrib-btnn">Subscribe</button>
+              <button type="submit" class="btn subscrib-btnn">Souscrire</button>
             </div>
           </form>
         </div>
@@ -85,10 +86,10 @@ window.addEventListener("DOMContentLoaded", () => {
         <div class="row">
           <div class="col-lg-7 col-md-7">
             <div class="headder-logo-icon text-center">
-                <img src="./images/logo.png" alt="" />  
+                <img src="../images/logo.png" alt="" />  
             </div>
             <div class="footer-bottom py-lg-4 py-md-3 py-2 text-center">
-              <p>©${year} AABYF. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">Tema Digital Designs</a></p>
+              <p>©${year} AABYF. Tous les droits sont réservés | Concu par <a href="http://www.W3Layouts.com" target="_blank">Tema Digital Designs</a></p>
             </div>
           </div>
           <div class="col-lg-5 col-md-5">
@@ -96,13 +97,13 @@ window.addEventListener("DOMContentLoaded", () => {
               <nav class="border-line">
                 <ul class="nav justify-content-center">
                   <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Maison <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a href="about.html" class="nav-link">About</a>
+                    <a href="about.html" class="nav-link">À propos</a>
                   </li>
                   <li class="nav-item">
-                    <a href="service.html" class="nav-link">Services</a>
+                    <a href="service.html" class="nav-link">Prestations de service</a>
                   </li>
                   <li class="nav-item">
                     <a href="contact.html" class="nav-link">Contact</a>
@@ -128,9 +129,9 @@ window.addEventListener("DOMContentLoaded", () => {
       </div>
   `;
 
-  french.addEventListener("click", () => {
+  english.addEventListener("click", () => {
     const link = currentLocation.split("/")[currentLocation.split("/").length - 1];
-    window.location.href = `../french/${link}`;
+    window.location.href = `../${link}`;
   });
 
   portugese.addEventListener("click", () => {
@@ -141,7 +142,7 @@ window.addEventListener("DOMContentLoaded", () => {
   for (let i = 0; i < navList.length; i++) {
     if (currentLocation === navList[i].href) {
       if (currentLocation.split("/")[currentLocation.split("/").length - 1] === "contact.html") {
-        menuList[i - 1].classList.add("active");
+        menuList[i].classList.add("active");
       } else {
         menuList[i].classList.add("active");
       }
