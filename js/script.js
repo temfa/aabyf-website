@@ -113,13 +113,19 @@ window.addEventListener("DOMContentLoaded", () => {
             <div class="icons text-center">
               <ul>
                 <li>
-                  <a href="#"><span class="fa fa-facebook"></span></a>
+                  <a href="https://www.facebook.com/profile.php?id=100068236816994&mibextid=ZbWKwL" target="_blank" ><span class="fa fa-facebook"></span></a>
                 </li>
                 <li>
                   <a href="#"><span class="fa fa-twitter"></span></a>
                 </li>
                 <li>
-                  <a href="#"><span class="fa fa-rss"></span></a>
+                  <a href="https://t.me/+BAo2QsK1IyE3ODVk" target="_blank"><span class="fa-brands fa-telegram"></span></a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/aabyf_21?igshid=ZDdkNTZiNTM=" target="_blank"><span class="fa-brands fa-instagram"></span></a>
+                </li>
+                <li>
+                  <a href="https://youtube.com/@aabyf" target="_blank"><span class="fa-brands fa-youtube"></span></a>
                 </li>
               </ul>
             </div>

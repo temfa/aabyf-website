@@ -251,13 +251,13 @@ button.register-hedder:hover,
 /*-- //header --*/
 /*-- banner --*/
 .one-img {
-  background: url(../images/conference2017_4.jpg) no-repeat center;
+  background: url(../images/mapp.png) no-repeat center;
 }
 .two-img {
-  background: url(../images/conference2017_10.jpeg) no-repeat center;
+  background: url(../images/Mission.jpg) no-repeat center;
 }
 .three-img {
-  background: url(../images/3.jpg) no-repeat center;
+  background: url(../images/Welcome.jpg) no-repeat center;
 }
 .slider-img {
   background-size: cover;
@@ -434,6 +434,11 @@ list-style: none;
   padding: 10px 24px;
   border: 2px solid #ffc107;
 }
+
+.outs_more-buttn a {
+  background-color: #013fa5;
+}
+
 .outs_more-buttn a:hover,
 .subscrib-btnn:hover,
 .click-me:hover {
@@ -718,9 +723,11 @@ figure.snip1390 h4 {
 }
 figure.snip1390 h2 {
   color: #ffffff;
+  font-size: 20px;
 }
 figure.snip1390 h4 {
   color: #a6a6a6;
+  font-size: 15px;
 }
 figure.snip1390 blockquote {
   font-size: 1em;
