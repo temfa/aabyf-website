@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <title>AABYF| Testimonials</title>
+    <!--meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      addEventListener(
+        "load",
+        function () {
+          setTimeout(hideURLbar, 0);
+        },
+        false
+      );
+
+      function hideURLbar() {
+        window.scrollTo(0, 1);
+      }
+    </script>
+    <!--//meta tags ends here-->
+    <!--booststrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//booststrap end-->
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/all.css" rel="stylesheet" />
+    <!--stylesheets-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//stylesheets-->
+    <link href="//fonts.googleapis.com/css?family=Mukta+Malar:400,500,600,700" rel="stylesheet" />
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" />
+  </head>
+  <body>
+    <!--banner -->
+    <div id="header"></div>
+    <!--//headder-->
+    <!-- banner -->
+    <div class="inner_page-banner one-img"></div>
+    <!--//banner -->
+    <!-- short -->
+    <div class="using-border py-3">
+      <div class="inner_breadcrumb ml-4">
+        <ul class="short_ls">
+          <li>
+            <a href="index.html">Home</a>
+            <span>/ /</span>
+          </li>
+          <li>Testimonials</li>
+        </ul>
+      </div>
+    </div>
+    <div class="testimonial-cont">
+      <div class="container" id="testifiers"></div>
+
+      <div id="pagination-numbers"></div>
+    </div>
+    <!--footer-->
+    <footer class="buttom-footer py-lg-5 py-md-4 py-sm-3 py-3" id="footer"></footer>
+    <!--//footer-->
+
+    <!--js working-->
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <!--//js working-->
+    <!-- start-smoth-scrolling -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/testimony.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $("html,body").animate(
+            {
+              scrollTop: $(this.hash).offset().top,
+            },
+            900
+          );
+        });
+      });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <!-- here stars scrolling icon -->
+    <script>
+      $(document).ready(function () {
+        var defaults = {
+          containerID: "toTop", // fading element id
+          containerHoverID: "toTopHover", // fading element hover id
+          scrollSpeed: 1200,
+          easingType: "linear",
+        };
+
+        $().UItoTop({
+          easingType: "easeOutQuart",
+        });
+      });
+    </script>
+    <!-- //here ends scrolling icon -->
+    <!--bootstrap working-->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- //bootstrap working-->
+  </body>
+</html>

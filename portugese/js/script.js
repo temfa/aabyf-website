@@ -21,6 +21,7 @@ window.addEventListener("DOMContentLoaded", () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <div class="navbar-single">
             <ul class="navbar-nav">
               <li class="nav-item ">
                 <a class="nav-link" href="index.html">Lar <span class="sr-only">(current)</span></a>
@@ -29,7 +30,13 @@ window.addEventListener("DOMContentLoaded", () => {
                 <a href="about.html" class="nav-link">Sobre</a>
               </li>
               <li class="nav-item">
-                <a href="service.html" class="nav-link">Serviços</a>
+                <a href="testimonials.html" class="nav-link">Testemunhos</a>
+              </li>
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Eventos </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-link" href="https://aabyf-event.netlify.app"/>AABYFGhana2023</a>
+                </div>
               </li>
               <li class="nav-item">
                 <a href="gallery.html" class="nav-link">Galeria</a>
@@ -55,6 +62,7 @@ window.addEventListener("DOMContentLoaded", () => {
                     </div>
                 </li>
             </ul>
+            </div>
             </div>
           </div>
         </nav>
