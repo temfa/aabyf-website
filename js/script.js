@@ -49,7 +49,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 <button type="button" class="btn login-hedder" data-toggle="modal" data-target="#exampleModalCenter">Login</button>
               </li> -->
             </ul>
-            <div class="both-butns">
+            <div class="both-butns navbar-nav">
             <ul>
                 <li class="dropdown">
                     <button type="button" class="register-hedder dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >

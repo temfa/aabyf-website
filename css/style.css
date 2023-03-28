@@ -1287,6 +1287,12 @@ footer p a:hover {
   }
 }
 @media (max-width: 991px) {
+  .navbar-single {
+    width: 100%;
+    flex-direction: column;
+    align-items: unset;
+  }
+
   div#navbarSupportedContent {
     background: #000;
     text-align: center;
@@ -1639,7 +1645,7 @@ footer p a:hover {
 @media (max-width: 640px) {
   .navbar-light .navbar-nav .nav-link {
     width: 17%;
-    padding: 10px 12px;
+    padding: 10px 0px;
   }
   button.login-hedder {
     margin-top: 13px;
@@ -1777,7 +1783,7 @@ footer p a:hover {
 }
 @media (max-width: 440px) {
   .navbar-light .navbar-nav .nav-link {
-    width: 26%;
+    width: 35%;
   }
   footer p {
     font-size: 13px;
