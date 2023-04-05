@@ -35,7 +35,7 @@ window.addEventListener("DOMContentLoaded", () => {
                <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Eventos </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="nav-link" href="https://aabyf-event.netlify.app"/>AABYFGhana2023</a>
+                  <a class="nav-link" href="https://aabyf-event.netlify.app" target="_blank"/>AABYFGhana2023</a>
                 </div>
               </li>
               <li class="nav-item">
