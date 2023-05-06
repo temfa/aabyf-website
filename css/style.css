@@ -417,9 +417,9 @@ list-style: none;
 }
 .slider-info p {
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   text-shadow: 2px 2px 8px #000;
-  padding: 2.5em 45em 2em 0em;
+  padding: 2.5em 32em 2em 0em;
   line-height: 27px;
   font-weight: 300;
   letter-spacing: 0px;
@@ -1083,8 +1083,7 @@ footer p a:hover {
     line-height: 33px;
   }
   .slider-info p {
-    font-size: 15px;
-    padding: 2.2em 42em 1.7em 0em;
+    padding: 2.2em 30em 1.7em 0em;
   }
 
   .abtr-inner-sub span {
@@ -1688,6 +1687,10 @@ footer p a:hover {
   }
 }
 @media (max-width: 568px) {
+  .ser-service {
+    display: none;
+  }
+
   .navbar-light .navbar-nav .nav-link {
     width: 19%;
   }
