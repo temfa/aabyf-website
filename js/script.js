@@ -109,9 +109,7 @@ window.addEventListener("DOMContentLoaded", () => {
                   <li class="nav-item">
                     <a href="about.html" class="nav-link">About</a>
                   </li>
-                  <li class="nav-item">
-                    <a href="service.html" class="nav-link">Services</a>
-                  </li>
+                  
                   <li class="nav-item">
                     <a href="contact.html" class="nav-link">Contact</a>
                   </li>
@@ -176,4 +174,9 @@ window.addEventListener("DOMContentLoaded", () => {
   //     </div>
   //   </li>
   // </ul>
+  // <li class="nav-item">
+  //   <a href="service.html" class="nav-link">
+  //     Services
+  //   </a>
+  // </li>;
 }

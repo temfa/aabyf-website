@@ -111,9 +111,6 @@ window.addEventListener("DOMContentLoaded", () => {
                     <a href="about.html" class="nav-link">Sobre</a>
                   </li>
                   <li class="nav-item">
-                    <a href="service.html" class="nav-link">Serviços</a>
-                  </li>
-                  <li class="nav-item">
                     <a href="contact.html" class="nav-link">Contato</a>
                   </li>
                 </ul>
