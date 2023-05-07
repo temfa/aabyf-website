@@ -111,7 +111,7 @@ h3.clr {
   line-height: 28px;
 }
 .service-wthree-info-left p {
-  color: #d8d8d8;
+  color: #000;
 }
 .abt-icon-list-wls h4,
 .service-wthree-info-left h4,
@@ -124,7 +124,7 @@ h3.clr {
   font-weight: 700;
 }
 .service {
-  background: #013fa5;
+  background: #fff;
 }
 .service-wthree-info-left h4,
 .team-text-wthree h4,
@@ -417,9 +417,9 @@ list-style: none;
 }
 .slider-info p {
   color: #fff;
-  font-size: 18px;
+  font-size: 22px;
   text-shadow: 2px 2px 8px #000;
-  padding: 2.5em 32em 2em 0em;
+  padding: 2.5em 22em 2em 0em;
   line-height: 27px;
   font-weight: 300;
   letter-spacing: 0px;
@@ -601,8 +601,8 @@ ul.short_ls li {
   padding: 0px;
   font-size: 25px;
   text-align: center;
-  color: #000;
-  background: #fff;
+  color: white;
+  background: #013fa5;
   width: 56px;
   height: 56px;
   line-height: 57px;
@@ -1083,7 +1083,7 @@ footer p a:hover {
     line-height: 33px;
   }
   .slider-info p {
-    padding: 2.2em 30em 1.7em 0em;
+    padding: 2.2em 22em 1.7em 0em;
   }
 
   .abtr-inner-sub span {
@@ -1152,7 +1152,7 @@ footer p a:hover {
     margin-bottom: 8px;
   }
   .slider-info p {
-    padding: 2em 41em 1.7em 0em;
+    padding: 2em 22em 1.7em 0em;
   }
   .slider-info {
     padding: 12em 0 0;
@@ -1242,7 +1242,7 @@ footer p a:hover {
     letter-spacing: 1px;
   }
   .slider-info p {
-    padding: 1.7em 35em 1.5em 0em;
+    padding: 1.7em 14em 1.5em 0em;
   }
   .abt-icon-list-wls h4,
   .service-wthree-info-left h4,
@@ -1338,7 +1338,7 @@ footer p a:hover {
     margin: 23px 0px;
   }
   .slider-info p {
-    padding: 1.5em 18em 1.3em 0em;
+    padding: 1.5em 6em 1.3em 0em;
   }
   .slider-img {
     min-height: 560px;
