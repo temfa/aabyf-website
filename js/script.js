@@ -35,7 +35,7 @@ window.addEventListener("DOMContentLoaded", () => {
                <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Events </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="nav-link" href="https://aabyf-event.netlify.app" target="_blank"/>AABYFGhana2023</a>
+                  <a class="nav-link" href="https://aabyfghana2023.allafricabaptistyouthfellowship.com/" target="_blank"/>AABYFGhana2023</a>
                 </div>
               </li>
               <li class="nav-item">
@@ -160,6 +160,29 @@ window.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
+// fetch("https://www.example.com")
+//   .then((response) => response.text())
+//   .then((html) => {
+//     const parser = new DOMParser();
+//     const doc = parser.parseFromString(html, "text/html");
+
+//     // Extract images
+//     const images = doc.querySelectorAll("img");
+//     images.forEach((img) => {
+//       console.log(img.src);
+//     });
+
+//     // Extract videos
+//     const videos = doc.querySelectorAll("video");
+//     videos.forEach((video) => {
+//       console.log(video.src);
+//     });
+
+//     // Extract text
+//     const text = doc.body.innerText;
+//     console.log(text);
+//   })
+//   .catch((error) => console.error(error));
 
 {
   //    <ul>
