@@ -18,6 +18,12 @@
         window.scrollTo(0, 1);
       }
     </script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function () {
+        $("#myModal").modal("show");
+      });
+    </script>
     <!--//meta tags ends here-->
     <!--booststrap-->
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
@@ -620,6 +626,53 @@
       </div>
     </div>
     <!--//Login-->
+    <div id="myModal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">AABYF Ghana 2023</h5>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>Compte à rebours pour cette conférence passionnante et puissante</p>
+          </div>
+          <div class="deadline">
+            <!-- days -->
+            <div class="deadline-format">
+              <div>
+                <h4 class="days">34</h4>
+                <span>jours</span>
+              </div>
+            </div>
+            <!-- end of days -->
+            <!-- days -->
+            <div class="deadline-format">
+              <div>
+                <h4 class="hours">34</h4>
+                <span>heures</span>
+              </div>
+            </div>
+            <!-- end of days -->
+            <!-- minutes -->
+            <div class="deadline-format">
+              <div>
+                <h4 class="minutes">34</h4>
+                <span>mins</span>
+              </div>
+            </div>
+            <!-- end of days -->
+            <!-- minutes -->
+            <div class="deadline-format">
+              <div>
+                <h4 class="seconds">34</h4>
+                <span>sec</span>
+              </div>
+            </div>
+            <!-- end of days -->
+          </div>
+        </div>
+      </div>
+    </div>
     <!--/Register-->
     <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
