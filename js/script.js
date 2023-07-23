@@ -168,7 +168,7 @@ let tempYear = tempDate.getFullYear();
 let tempMonth = tempDate.getMonth();
 let tempDay = tempDate.getDate();
 // months are ZERO index based;
-const futureDate = new Date("07/30/2023");
+const futureDate = new Date("08/01/2023");
 
 const year = futureDate.getFullYear();
 const hours = futureDate.getHours();
